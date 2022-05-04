@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>10</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+        <PackageId>JKMP.Core.CodeAnalyzers</PackageId>
+        <Version>0.1.0</Version>
+        <PackageTags>analyzers jkmp</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/Jump-King-Modding-Platform/JKMP.Core.CodeAnalyzers</PackageProjectUrl>
+    </PropertyGroup>
+
+</Project>
