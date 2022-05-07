@@ -6,16 +6,25 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <IncludeBuildOutput>false</IncludeBuildOutput>
+        <NoPackageAnalysis>true</NoPackageAnalysis> <!-- Disable warnings about nuget package creation -->
 
         <PackageId>JKMP.Core.Analyzers</PackageId>
+        <Authors>Skipcast</Authors>
         <Version>0.1.0</Version>
+        <Description>This package provides roslyn analyzers to help with writing plugins for the Core modding api.</Description>
         <PackageTags>analyzers, jkmp</PackageTags>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageProjectUrl>https://github.com/Jump-King-Modding-Platform/JKMP.Core.CodeAnalyzers</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/Jump-King-Modding-Platform/JKMP.Core.Analyzers</PackageProjectUrl>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="4.1.0" />
+      <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="4.1.0" PrivateAssets="all" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Update="tools\*.ps1" CopyToOutputDirectory="Always" Pack="true" PackagePath="tools" />
+        <None Include="$(OutputPath)$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
     </ItemGroup>
 
 </Project>
