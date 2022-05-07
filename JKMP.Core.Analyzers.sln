@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JKMP.Core.Analyzers", "JKMP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JKMP.Core.Analyzers.Tests", "JKMP.Core.Analyzers.Tests\JKMP.Core.Analyzers.Tests.csproj", "{AF7C92D5-A8CC-4F82-ADEC-97BD2278EC44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JKMP.Plugin.AnalyzerTest", "JKMP.Plugin.AnalyzerTest\JKMP.Plugin.AnalyzerTest.csproj", "{802595C9-DF74-4199-93AF-1E5C6D78656B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +24,5 @@ Global
 		{AF7C92D5-A8CC-4F82-ADEC-97BD2278EC44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF7C92D5-A8CC-4F82-ADEC-97BD2278EC44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF7C92D5-A8CC-4F82-ADEC-97BD2278EC44}.Release|Any CPU.Build.0 = Release|Any CPU
-		{802595C9-DF74-4199-93AF-1E5C6D78656B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{802595C9-DF74-4199-93AF-1E5C6D78656B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{802595C9-DF74-4199-93AF-1E5C6D78656B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{802595C9-DF74-4199-93AF-1E5C6D78656B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
