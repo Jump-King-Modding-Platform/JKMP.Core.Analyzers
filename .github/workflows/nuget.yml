@@ -1,0 +1,28 @@
+name: Publish NuGet package
+
+on:
+    push:
+        tags:
+            - v*
+
+jobs:
+    package:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout files
+              uses: actions/checkout@v2
+            - name: Setup dotnet
+              uses: actions/setup-dotnet@v1
+              with:
+                  dotnet-version: 5.0.x
+            - name: Restore packages
+              run: dotnet restore
+            - name: Build project
+              run: dotnet build --no-restore -c Release
+            - name: Run tests
+              run: dotnet test --no-build --verbosity normal
+            - name: Package project
+              run: dotnet pack --no-build -c Release
+            - name: Publish package
+              run: dotnet nuget push JKMP.Core/bin/Release/*.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{ secrets.NUGET_KEY }}
