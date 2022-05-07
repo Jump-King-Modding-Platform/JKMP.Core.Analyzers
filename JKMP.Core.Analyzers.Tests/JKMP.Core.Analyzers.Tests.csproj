@@ -19,7 +19,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\JKMP.Core.CodeAnalyzers\JKMP.Core.CodeAnalyzers.csproj" />
+      <ProjectReference Include="..\JKMP.Core.Analyzers\JKMP.Core.Analyzers.csproj" />
     </ItemGroup>
 
 </Project>

@@ -7,7 +7,7 @@
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 
-        <PackageId>JKMP.Core.CodeAnalyzers</PackageId>
+        <PackageId>JKMP.Core.Analyzers</PackageId>
         <Version>0.1.0</Version>
         <PackageTags>analyzers, jkmp</PackageTags>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>

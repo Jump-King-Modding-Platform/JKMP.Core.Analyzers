@@ -3,7 +3,7 @@ using Microsoft.CodeAnalysis;
 
 // ReSharper disable InconsistentNaming
 
-namespace JKMP.Core.CodeAnalyzers;
+namespace JKMP.Core.Analyzers;
 
 public static class Descriptors
 {

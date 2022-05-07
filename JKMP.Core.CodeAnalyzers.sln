@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JKMP.Core.CodeAnalyzers", "JKMP.Core.CodeAnalyzers\JKMP.Core.CodeAnalyzers.csproj", "{7FD26C9B-E52E-4E91-9E91-2705EEBB779D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JKMP.Core.Analyzers", "JKMP.Core.Analyzers\JKMP.Core.Analyzers.csproj", "{7FD26C9B-E52E-4E91-9E91-2705EEBB779D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JKMP.Core.CodeAnalyzers.Tests", "JKMP.Core.CodeAnalyzers.Tests\JKMP.Core.CodeAnalyzers.Tests.csproj", "{AF7C92D5-A8CC-4F82-ADEC-97BD2278EC44}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JKMP.Core.Analyzers.Tests", "JKMP.Core.Analyzers.Tests\JKMP.Core.Analyzers.Tests.csproj", "{AF7C92D5-A8CC-4F82-ADEC-97BD2278EC44}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JKMP.Plugin.AnalyzerTest", "JKMP.Plugin.AnalyzerTest\JKMP.Plugin.AnalyzerTest.csproj", "{802595C9-DF74-4199-93AF-1E5C6D78656B}"
 EndProject

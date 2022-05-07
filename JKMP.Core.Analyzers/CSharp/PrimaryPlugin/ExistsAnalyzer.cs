@@ -2,7 +2,7 @@ using System.Collections.Immutable;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.Diagnostics;
 
-namespace JKMP.Core.CodeAnalyzers.CSharp.PrimaryPlugin;
+namespace JKMP.Core.Analyzers.CSharp.PrimaryPlugin;
 
 [DiagnosticAnalyzer(LanguageNames.CSharp)]
 public class ExistsAnalyzer : JkmpDiagnosticAnalyzer

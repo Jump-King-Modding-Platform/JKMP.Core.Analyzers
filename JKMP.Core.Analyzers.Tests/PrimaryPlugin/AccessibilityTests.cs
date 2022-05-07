@@ -1,10 +1,9 @@
 using System.Threading.Tasks;
-using JKMP.Core.CodeAnalyzers.CSharp.PrimaryPlugin;
-using Microsoft.CodeAnalysis;
+using JKMP.Core.Analyzers.CSharp.PrimaryPlugin;
 using Microsoft.CodeAnalysis.Testing;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace JKMP.Core.CodeAnalyzers.Tests.PrimaryPlugin;
+namespace JKMP.Core.Analyzers.Tests.PrimaryPlugin;
 
 [TestClass]
 public class AccessibilityTests

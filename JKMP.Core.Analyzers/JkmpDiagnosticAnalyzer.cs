@@ -1,7 +1,7 @@
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.Diagnostics;
 
-namespace JKMP.Core.CodeAnalyzers;
+namespace JKMP.Core.Analyzers;
 
 public abstract class JkmpDiagnosticAnalyzer : DiagnosticAnalyzer
 {

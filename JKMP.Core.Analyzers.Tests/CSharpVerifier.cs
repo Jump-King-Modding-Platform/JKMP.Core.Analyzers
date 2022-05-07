@@ -3,13 +3,12 @@ using System.Collections.Immutable;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.CodeAnalysis.CodeFixes;
-using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.CodeAnalysis.CSharp.Testing;
 using Microsoft.CodeAnalysis.Diagnostics;
 using Microsoft.CodeAnalysis.Testing;
 using Microsoft.CodeAnalysis.Testing.Verifiers;
 
-namespace JKMP.Core.CodeAnalyzers.Tests;
+namespace JKMP.Core.Analyzers.Tests;
 
 public class CSharpVerifier<TAnalyzer> where TAnalyzer : DiagnosticAnalyzer, new()
 {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.CodeAnalysis.CodeFixes;
 using Microsoft.VisualStudio.Composition;
 
-namespace JKMP.Core.CodeAnalyzers.Tests;
+namespace JKMP.Core.Analyzers.Tests;
 
 public static class CodeFixProviderDiscovery
 {

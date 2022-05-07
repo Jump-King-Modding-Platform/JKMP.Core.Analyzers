@@ -1,4 +1,4 @@
-namespace JKMP.Core.CodeAnalyzers;
+namespace JKMP.Core.Analyzers;
 
 public static class Constants
 {
